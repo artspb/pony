@@ -3,7 +3,6 @@
 import re, datetime
 
 from pony.utils import is_ident
-from pony.templating import html
 
 def check_ip(s):
     s = s.strip()
@@ -193,4 +192,4 @@ def str2py(value, type):
     except ValidationError: raise
     except:
         if value == '': return None
-        raise ValidationError(err_msg, html('@{%s}' % (err_msg or 'Incorrect data')))
+        raise ValidationError(err_msg, err_msg or 'Incorrect data')
