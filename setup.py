@@ -6,7 +6,10 @@ import sys
 name = "pony"
 version = "0.1"
 description = "Pony Object Relational Mapper"
-long_description = "TODO"
+long_description = """Pony helps to simplify data management. Using Pony you can work with the data in terms of 
+entities and their relationships. Pony also allows quering data in pure Python using the syntax of generator 
+expressions."""
+
 classifiers=[
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
