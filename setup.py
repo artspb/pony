@@ -23,6 +23,7 @@ url="http://python-orm.com"
 license="AGPL"
 
 modules=[
+    "pony.converting",
     "pony.dbapiprovider",
     "pony.dbschema",
     "pony.decompiling",
@@ -31,16 +32,12 @@ modules=[
     "pony.sqlbuilding",
     "pony.sqlsymbols",
     "pony.sqltranslation",
-    "pony.utils",
-    "pony.dbproviders.mysql",
-    "pony.dbproviders.odbc",
-    "pony.dbproviders.oracle",
-    "pony.dbproviders.postgres",
-    "pony.dbproviders.sqlite"
+    "pony.utils"
 ]
 
 packages=[
-    "pony.examples"
+    "pony.examples",
+    "pony.dbproviders"
 ]
 
 download_url="http://pypi.python.org/pypi/pony/"
