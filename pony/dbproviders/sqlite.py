@@ -6,7 +6,10 @@ from decimal import Decimal
 from datetime import datetime, date, time
 from time import strptime
 
-from pony.thirdparty import sqlite
+try:
+    import sqlite3 as sqlite
+except ImportError:
+    from pysqlite2.dbapi2 import *
 
 from pony import dbschema, sqltranslation, sqlbuilding, dbapiprovider
 from pony.dbapiprovider import DBAPIProvider, wrap_dbapi_exceptions
