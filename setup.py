@@ -40,7 +40,8 @@ modules=[
 
 packages=[
     "pony.examples",
-    "pony.dbproviders"
+    "pony.dbproviders",
+    "pony.thirdparty"
 ]
 
 download_url="http://pypi.python.org/pypi/pony/"
