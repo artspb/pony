@@ -26,12 +26,14 @@ url="http://python-orm.com"
 license="AGPL"
 
 modules=[
+    "pony.asttranslation",
     "pony.converting",
     "pony.dbapiprovider",
     "pony.dbschema",
     "pony.decompiling",
     "pony.options",
     "pony.orm",
+    "pony.ormtypes",
     "pony.sqlbuilding",
     "pony.sqlsymbols",
     "pony.sqltranslation",
